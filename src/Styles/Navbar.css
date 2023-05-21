@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     height: auto;
-    background-color: rgb(202, 201, 201);
+    background-color: whitesmoke;
     margin: 0;
     flex-direction: row;
 }
