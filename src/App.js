@@ -6,6 +6,7 @@ import About from './Pages/About';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Contact from './Pages/Contact';
+import Client from './Pages/Client';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/services" exact Component={Services}/>
           <Route path="/about" exact Component={About}/>
           <Route path="/contacts" exact Component={Contact}/>
+          <Route path="/clients" exact Component={Client}/>
         </Routes>
         <Footer />
      </Router>
